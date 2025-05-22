@@ -1,7 +1,6 @@
 import org.UNESPAR.entities.Population;
 
 import org.UNESPAR.resources.Chart;
-import org.UNESPAR.resources.Graph;
 import org.UNESPAR.resources.TSPFileReader;
 import org.UNESPAR.services.Evolution;
 
@@ -21,6 +20,5 @@ public class Main {
         System.out.println("duration: "+durationInSeconds+" s");
 
         Chart.getDistanceChartFile();
-        Graph.createGraphFile();
     }
 }

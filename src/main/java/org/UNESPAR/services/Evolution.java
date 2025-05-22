@@ -3,6 +3,7 @@ package org.UNESPAR.services;
 import org.UNESPAR.entities.Chromosome;
 import org.UNESPAR.entities.City;
 import org.UNESPAR.entities.Population;
+import org.UNESPAR.resources.Graph;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -59,7 +60,7 @@ public class Evolution {
         Population.selectSolution().print();
         System.out.print("Best solution total distance traveled: ");
         System.out.println(Population.selectSolution().getDistanceTraveled());
-        //Graph.createGraphFile();
+        Graph.createGraphFile();
     }
 
     public static Chromosome diminishCO(List<Chromosome> selectedChromosomes){
