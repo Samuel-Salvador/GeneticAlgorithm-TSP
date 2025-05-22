@@ -1,8 +1,6 @@
 # Genetic Algorithm - TSP
 ## Description
 
----
-
 An implementation of a Genetic Algorithm
 as an attempt to solve the 
 Travelling Salesman Problem (TSP) using the sample instances from TSPLIB.
@@ -45,8 +43,6 @@ with a common set of benchmark problems for
 testing and comparing algorithms.
 
 ## Operators
-
----
 
 Naming and describing the operators used in the implementation of the algorithm.
 
@@ -110,7 +106,5 @@ between persistence in the search for better solutions
 and computational efficiency.
 
 ## Author
-
----
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/107806776?v=4" width=115><br><sub>Samuel Salvador</sub>](https://github.com/samuel-salvador)
