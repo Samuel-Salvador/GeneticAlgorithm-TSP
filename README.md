@@ -110,6 +110,15 @@ population. In this way, the algorithm ensures a balance
 between persistence in the search for better solutions 
 and computational efficiency.
 
+## Conclusion
+
+The results showed that, for small-scale instances, 
+the algorithm is capable of reaching the optimal solution with speed and stability. 
+For more complex instances, 
+although the optimal solution was not found, high-quality routes were obtained, 
+with significantly reduced distances over the generations. 
+
+
 ## Author
 
 [<img loading="lazy" src="https://avatars.githubusercontent.com/u/107806776?v=4" width=115><br><sub>Samuel Salvador</sub>](https://github.com/samuel-salvador)
